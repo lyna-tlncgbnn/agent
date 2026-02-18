@@ -1,0 +1,34 @@
+﻿# Dependencies
+node_modules
+mcp-gateway/node_modules
+
+# Next.js
+.next
+out
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Runtime config (contains API keys)
+.runtime-config.json
+.gateway-config.json
+
+# Database
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-lock.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
